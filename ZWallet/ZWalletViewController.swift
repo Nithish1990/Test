@@ -7,23 +7,27 @@
 
 import UIKit
 
-class ZWalletViewController: UIViewController {
+class ZWalletViewController: BaseVC,UITextFieldDelegate {
 
+    private lazy var textField = UITextField()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        view.addSubview(textField)
+        textField.backgroundColor = .quaternaryLabel
+        textField.translatesAutoresizingMaskIntoConstraints = false
+        textField.delegate = self
+        
+        NSLayoutConstraint.activate([
+            textField.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor),
+            textField.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor),
+            textField.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor),
+            textField.heightAnchor.constraint(equalToConstant: 80),
+        ])
     }
-    
 
-    /*
-    // MARK: - Navigation
+    override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+        textField.canPerformAction(action, withSender: sender)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
-
 }

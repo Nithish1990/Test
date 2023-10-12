@@ -1,21 +1,16 @@
-//
-//  ViewController.swift
-//  ZWallet
-//
-//  Created by nithish-17632 on 28/07/23.
-//
-
 import UIKit
 
-class ViewController: UIViewController {
+class ZStocksViewController: BaseVC{
 
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        view.backgroundColor = .yellow
-        
+            super.viewDidLoad()
+        configNavBar()
+        addButton.setTitle("", for: .normal)
+        addButton.setImage(UIImage(systemName: "number"), for: .normal)
+        addButton.addTarget(self, action: #selector(didCalculateButtonTapped), for: .touchUpInside)
     }
-
-
+    @objc private func didCalculateButtonTapped(){
+        self.present(ReturnPercentageViewController(), animated: true)
+    }
 }
-

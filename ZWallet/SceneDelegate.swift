@@ -16,7 +16,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window?.windowScene = windowScene
+        window?.rootViewController = ZMainTabBarController()
+        window?.makeKeyAndVisible()
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -49,4 +55,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-
+/*
+2023-09-22 14:58:10.624523+0530 ZohoCRM[7970:427209] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: 'This UITargetedPreview initializer requires that the view is in a window, but it is not. Please correct this or use -initWithView:parameters:target: to provide a target with an explicit container. (view: <UIButton: 0x13b7516d0> => <_UITAMICAdaptorView: 0x13b7cd570>)'
+*/

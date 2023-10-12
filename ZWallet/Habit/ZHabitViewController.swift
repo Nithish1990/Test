@@ -14,7 +14,7 @@ class ZHabitViewController: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Habit"
-        
+        streakView.relapseButton.addTarget(self, action: #selector(didRelapseTapped), for: .touchUpInside)
         configNavBar()
         configStreakView()
     }
@@ -27,5 +27,8 @@ class ZHabitViewController: BaseVC {
             streakView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
             streakView.heightAnchor.constraint(equalToConstant: 300),
         ])
+    }
+    @objc private func didRelapseTapped(){
+        self.present(HabitInput(), animated: true)
     }
 }

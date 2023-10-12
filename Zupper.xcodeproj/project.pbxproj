@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E52237302AA32AE0009C95A6 /* ZStreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522372F2AA32AE0009C95A6 /* ZStreakView.swift */; };
+		E52237332AA46A01009C95A6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52237322AA46A01009C95A6 /* DatabaseManager.swift */; };
+		E52237362AA500D6009C95A6 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52237352AA500D6009C95A6 /* Calculator.swift */; };
+		E52237392AA50F00009C95A6 /* HabitInputPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52237382AA50F00009C95A6 /* HabitInputPage.swift */; };
+		E522373B2AA64605009C95A6 /* ZHabitTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522373A2AA64605009C95A6 /* ZHabitTVC.swift */; };
+		E5AF84252A90A531006E43F6 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AF84242A90A531006E43F6 /* BaseVC.swift */; };
 		E5BC0E4C2A7433D200CD843F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4B2A7433D200CD843F /* AppDelegate.swift */; };
 		E5BC0E4E2A7433D200CD843F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4D2A7433D200CD843F /* SceneDelegate.swift */; };
 		E5BC0E502A7433D200CD843F /* ZStocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */; };
@@ -39,16 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E5BC0E482A7433D200CD843F /* ZWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522372F2AA32AE0009C95A6 /* ZStreakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStreakView.swift; sourceTree = "<group>"; };
+		E52237322AA46A01009C95A6 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		E52237352AA500D6009C95A6 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		E52237382AA50F00009C95A6 /* HabitInputPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitInputPage.swift; sourceTree = "<group>"; };
+		E522373A2AA64605009C95A6 /* ZHabitTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHabitTVC.swift; sourceTree = "<group>"; };
+		E5AF84242A90A531006E43F6 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		E5BC0E482A7433D200CD843F /* Zupper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zupper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BC0E4B2A7433D200CD843F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BC0E4D2A7433D200CD843F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStocksViewController.swift; sourceTree = "<group>"; };
 		E5BC0E542A7433D300CD843F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BC0E572A7433D300CD843F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5BC0E592A7433D300CD843F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5BC0E5E2A7433D300CD843F /* ZWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BC0E5E2A7433D300CD843F /* ZupperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZupperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BC0E622A7433D300CD843F /* ZWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWalletTests.swift; sourceTree = "<group>"; };
-		E5BC0E682A7433D300CD843F /* ZWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BC0E682A7433D300CD843F /* ZupperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZupperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BC0E6C2A7433D300CD843F /* ZWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWalletUITests.swift; sourceTree = "<group>"; };
 		E5BC0E6E2A7433D300CD843F /* ZWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E5BC0E7D2A74CD8F00CD843F /* ZMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMainTabBarController.swift; sourceTree = "<group>"; };
@@ -82,6 +94,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E522372C2AA32AA6009C95A6 /* ZViews */ = {
+			isa = PBXGroup;
+			children = (
+				E522372F2AA32AE0009C95A6 /* ZStreakView.swift */,
+			);
+			path = ZViews;
+			sourceTree = "<group>";
+		};
+		E52237312AA469E8009C95A6 /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				E52237322AA46A01009C95A6 /* DatabaseManager.swift */,
+			);
+			path = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		E52237342AA500C1009C95A6 /* Stocks */ = {
+			isa = PBXGroup;
+			children = (
+				E52237352AA500D6009C95A6 /* Calculator.swift */,
+				E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */,
+			);
+			name = Stocks;
+			sourceTree = "<group>";
+		};
+		E52237372AA50EE1009C95A6 /* Habit */ = {
+			isa = PBXGroup;
+			children = (
+				E52237382AA50F00009C95A6 /* HabitInputPage.swift */,
+				E5BC0E812A74CF6C00CD843F /* ZHabitViewController.swift */,
+				E522373A2AA64605009C95A6 /* ZHabitTVC.swift */,
+			);
+			path = Habit;
+			sourceTree = "<group>";
+		};
 		E5BC0E3F2A7433D200CD843F = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +142,9 @@
 		E5BC0E492A7433D200CD843F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5BC0E482A7433D200CD843F /* ZWallet.app */,
-				E5BC0E5E2A7433D300CD843F /* ZWalletTests.xctest */,
-				E5BC0E682A7433D300CD843F /* ZWalletUITests.xctest */,
+				E5BC0E482A7433D200CD843F /* Zupper.app */,
+				E5BC0E5E2A7433D300CD843F /* ZupperTests.xctest */,
+				E5BC0E682A7433D300CD843F /* ZupperUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,16 +152,19 @@
 		E5BC0E4A2A7433D200CD843F /* ZWallet */ = {
 			isa = PBXGroup;
 			children = (
+				E52237372AA50EE1009C95A6 /* Habit */,
+				E52237342AA500C1009C95A6 /* Stocks */,
+				E52237312AA469E8009C95A6 /* DataBaseManager */,
+				E522372C2AA32AA6009C95A6 /* ZViews */,
 				E5BC0E4B2A7433D200CD843F /* AppDelegate.swift */,
 				E5BC0E4D2A7433D200CD843F /* SceneDelegate.swift */,
 				E5BC0E542A7433D300CD843F /* Assets.xcassets */,
 				E5BC0E562A7433D300CD843F /* LaunchScreen.storyboard */,
 				E5BC0E592A7433D300CD843F /* Info.plist */,
-				E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */,
 				E5BC0E832A74CF9200CD843F /* ZFoodViewController.swift */,
-				E5BC0E812A74CF6C00CD843F /* ZHabitViewController.swift */,
 				E5BC0E7F2A74CF2600CD843F /* ZWalletViewController.swift */,
 				E5BC0E7D2A74CD8F00CD843F /* ZMainTabBarController.swift */,
+				E5AF84242A90A531006E43F6 /* BaseVC.swift */,
 			);
 			path = ZWallet;
 			sourceTree = "<group>";
@@ -139,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5BC0E472A7433D200CD843F /* ZWallet */ = {
+		E5BC0E472A7433D200CD843F /* Zupper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5BC0E722A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZWallet" */;
+			buildConfigurationList = E5BC0E722A7433D300CD843F /* Build configuration list for PBXNativeTarget "Zupper" */;
 			buildPhases = (
 				E5BC0E442A7433D200CD843F /* Sources */,
 				E5BC0E452A7433D200CD843F /* Frameworks */,
@@ -151,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = ZWallet;
+			name = Zupper;
 			productName = ZWallet;
-			productReference = E5BC0E482A7433D200CD843F /* ZWallet.app */;
+			productReference = E5BC0E482A7433D200CD843F /* Zupper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5BC0E5D2A7433D300CD843F /* ZWalletTests */ = {
+		E5BC0E5D2A7433D300CD843F /* ZupperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5BC0E752A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZWalletTests" */;
+			buildConfigurationList = E5BC0E752A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZupperTests" */;
 			buildPhases = (
 				E5BC0E5A2A7433D300CD843F /* Sources */,
 				E5BC0E5B2A7433D300CD843F /* Frameworks */,
@@ -169,14 +219,14 @@
 			dependencies = (
 				E5BC0E602A7433D300CD843F /* PBXTargetDependency */,
 			);
-			name = ZWalletTests;
+			name = ZupperTests;
 			productName = ZWalletTests;
-			productReference = E5BC0E5E2A7433D300CD843F /* ZWalletTests.xctest */;
+			productReference = E5BC0E5E2A7433D300CD843F /* ZupperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E5BC0E672A7433D300CD843F /* ZWalletUITests */ = {
+		E5BC0E672A7433D300CD843F /* ZupperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5BC0E782A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZWalletUITests" */;
+			buildConfigurationList = E5BC0E782A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZupperUITests" */;
 			buildPhases = (
 				E5BC0E642A7433D300CD843F /* Sources */,
 				E5BC0E652A7433D300CD843F /* Frameworks */,
@@ -187,9 +237,9 @@
 			dependencies = (
 				E5BC0E6A2A7433D300CD843F /* PBXTargetDependency */,
 			);
-			name = ZWalletUITests;
+			name = ZupperUITests;
 			productName = ZWalletUITests;
-			productReference = E5BC0E682A7433D300CD843F /* ZWalletUITests.xctest */;
+			productReference = E5BC0E682A7433D300CD843F /* ZupperUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5BC0E432A7433D200CD843F /* Build configuration list for PBXProject "ZWallet" */;
+			buildConfigurationList = E5BC0E432A7433D200CD843F /* Build configuration list for PBXProject "Zupper" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +278,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5BC0E472A7433D200CD843F /* ZWallet */,
-				E5BC0E5D2A7433D300CD843F /* ZWalletTests */,
-				E5BC0E672A7433D300CD843F /* ZWalletUITests */,
+				E5BC0E472A7433D200CD843F /* Zupper */,
+				E5BC0E5D2A7433D300CD843F /* ZupperTests */,
+				E5BC0E672A7433D300CD843F /* ZupperUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,9 +318,15 @@
 			files = (
 				E5BC0E842A74CF9200CD843F /* ZFoodViewController.swift in Sources */,
 				E5BC0E502A7433D200CD843F /* ZStocksViewController.swift in Sources */,
+				E52237332AA46A01009C95A6 /* DatabaseManager.swift in Sources */,
+				E52237362AA500D6009C95A6 /* Calculator.swift in Sources */,
+				E52237392AA50F00009C95A6 /* HabitInputPage.swift in Sources */,
 				E5BC0E802A74CF2600CD843F /* ZWalletViewController.swift in Sources */,
+				E52237302AA32AE0009C95A6 /* ZStreakView.swift in Sources */,
+				E5AF84252A90A531006E43F6 /* BaseVC.swift in Sources */,
 				E5BC0E7E2A74CD8F00CD843F /* ZMainTabBarController.swift in Sources */,
 				E5BC0E4C2A7433D200CD843F /* AppDelegate.swift in Sources */,
+				E522373B2AA64605009C95A6 /* ZHabitTVC.swift in Sources */,
 				E5BC0E822A74CF6C00CD843F /* ZHabitViewController.swift in Sources */,
 				E5BC0E4E2A7433D200CD843F /* SceneDelegate.swift in Sources */,
 			);
@@ -298,12 +354,12 @@
 /* Begin PBXTargetDependency section */
 		E5BC0E602A7433D300CD843F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BC0E472A7433D200CD843F /* ZWallet */;
+			target = E5BC0E472A7433D200CD843F /* Zupper */;
 			targetProxy = E5BC0E5F2A7433D300CD843F /* PBXContainerItemProxy */;
 		};
 		E5BC0E6A2A7433D300CD843F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5BC0E472A7433D200CD843F /* ZWallet */;
+			target = E5BC0E472A7433D200CD843F /* Zupper */;
 			targetProxy = E5BC0E692A7433D300CD843F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,7 +560,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZWallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zupper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zupper";
 			};
 			name = Debug;
 		};
@@ -524,7 +580,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZWallet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zupper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zupper";
 			};
 			name = Release;
 		};
@@ -567,7 +623,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5BC0E432A7433D200CD843F /* Build configuration list for PBXProject "ZWallet" */ = {
+		E5BC0E432A7433D200CD843F /* Build configuration list for PBXProject "Zupper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5BC0E702A7433D300CD843F /* Debug */,
@@ -576,7 +632,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5BC0E722A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZWallet" */ = {
+		E5BC0E722A7433D300CD843F /* Build configuration list for PBXNativeTarget "Zupper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5BC0E732A7433D300CD843F /* Debug */,
@@ -585,7 +641,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5BC0E752A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZWalletTests" */ = {
+		E5BC0E752A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZupperTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5BC0E762A7433D300CD843F /* Debug */,
@@ -594,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5BC0E782A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZWalletUITests" */ = {
+		E5BC0E782A7433D300CD843F /* Build configuration list for PBXNativeTarget "ZupperUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5BC0E792A7433D300CD843F /* Debug */,

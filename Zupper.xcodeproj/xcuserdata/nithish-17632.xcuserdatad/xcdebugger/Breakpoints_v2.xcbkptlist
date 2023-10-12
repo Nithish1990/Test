@@ -17,5 +17,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF7A4FEF-BBB7-4744-84AE-4E17A9CDAB4D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZWallet/ZWalletViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "canPerformAction(_:withSender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF7A4FEF-BBB7-4744-84AE-4E17A9CDAB4D - 3cfa5ce58b7240f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zupper.ZWalletViewController.canPerformAction(_: ObjectiveC.Selector, withSender: Swift.Optional&lt;Any&gt;) -&gt; Swift.Bool"
+                  moduleName = "Zupper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nithish-17632/Documents/ZWallet/ZWallet/ZWalletViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "EF7A4FEF-BBB7-4744-84AE-4E17A9CDAB4D - 3cfa5ce58b7240f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Zupper.ZWalletViewController.canPerformAction(_: ObjectiveC.Selector, withSender: Swift.Optional&lt;Any&gt;) -&gt; Swift.Bool"
+                  moduleName = "Zupper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nithish-17632/Documents/ZWallet/ZWallet/ZWalletViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

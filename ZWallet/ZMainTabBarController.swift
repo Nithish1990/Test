@@ -11,19 +11,30 @@ class ZMainTabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let walletVC = HabitInput()
+        walletVC.tabBarItem = UITabBarItem(title: "Wallet", image: UIImage(systemName: "dollarsign"), tag: 1)
+        let walletNav = UINavigationController(rootViewController: walletVC)
+        
+        
+        
+        let stockVC = ZStocksViewController()
+        stockVC.tabBarItem = UITabBarItem(title: "Stocks", image: UIImage(systemName: "chart.line.uptrend.xyaxis"), tag: 2)
+        let stockNav = UINavigationController(rootViewController: stockVC)
+        
+        
+        let habitVC = ZHabitViewController()
+        habitVC.tabBarItem = UITabBarItem(title: "Habit", image: UIImage(systemName: "figure.run"), tag: 3)
+        let habitNav = UINavigationController(rootViewController: habitVC)
+        
+        
+        
+        let foodVC = ZFoodViewController()
+        foodVC.tabBarItem = UITabBarItem(title: "Habit", image: UIImage(systemName: "carrot"), tag: 4)
+        let foodNav = UINavigationController(rootViewController: foodVC)
+        
+        
+        self.setViewControllers([walletNav,stockNav,habitNav,foodNav], animated: true)
+        self.tabBar.barTintColor = .systemBackground
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

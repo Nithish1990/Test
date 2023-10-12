@@ -8,22 +8,28 @@
 import UIKit
 
 class BaseVC: UIViewController {
-
+    let addButton: UIButton = {
+        let button = UIButton()
+        button.setTitle("Add", for: .normal)
+        button.setTitleColor(.link, for: .normal)
+        return button
+    }()
+    let report: UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(systemName: "chart.pie"), for: .normal)
+        button.setTitleColor(.link, for: .normal)
+        return button
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+                view.backgroundColor = .systemBackground
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func configNavBar(){
+        let button = UIBarButtonItem(customView: addButton)
+        let lButton = UIBarButtonItem(customView: report)
+ //        navigationItem.title = "Title"
+        navigationItem.rightBarButtonItem = button
+        navigationItem.leftBarButtonItem = lButton
+//        navigationController?.preferredContentSize = true
     }
-    */
-
 }
