@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		E5BC0E4C2A7433D200CD843F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4B2A7433D200CD843F /* AppDelegate.swift */; };
 		E5BC0E4E2A7433D200CD843F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4D2A7433D200CD843F /* SceneDelegate.swift */; };
-		E5BC0E502A7433D200CD843F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4F2A7433D200CD843F /* ViewController.swift */; };
-		E5BC0E532A7433D200CD843F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BC0E512A7433D200CD843F /* Main.storyboard */; };
+		E5BC0E502A7433D200CD843F /* ZStocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */; };
 		E5BC0E552A7433D300CD843F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BC0E542A7433D300CD843F /* Assets.xcassets */; };
 		E5BC0E582A7433D300CD843F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BC0E562A7433D300CD843F /* LaunchScreen.storyboard */; };
 		E5BC0E632A7433D300CD843F /* ZWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E622A7433D300CD843F /* ZWalletTests.swift */; };
 		E5BC0E6D2A7433D300CD843F /* ZWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E6C2A7433D300CD843F /* ZWalletUITests.swift */; };
 		E5BC0E6F2A7433D300CD843F /* ZWalletUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E6E2A7433D300CD843F /* ZWalletUITestsLaunchTests.swift */; };
+		E5BC0E7E2A74CD8F00CD843F /* ZMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E7D2A74CD8F00CD843F /* ZMainTabBarController.swift */; };
+		E5BC0E802A74CF2600CD843F /* ZWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E7F2A74CF2600CD843F /* ZWalletViewController.swift */; };
+		E5BC0E822A74CF6C00CD843F /* ZHabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E812A74CF6C00CD843F /* ZHabitViewController.swift */; };
+		E5BC0E842A74CF9200CD843F /* ZFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BC0E832A74CF9200CD843F /* ZFoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,7 @@
 		E5BC0E482A7433D200CD843F /* ZWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BC0E4B2A7433D200CD843F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BC0E4D2A7433D200CD843F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5BC0E4F2A7433D200CD843F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5BC0E522A7433D200CD843F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStocksViewController.swift; sourceTree = "<group>"; };
 		E5BC0E542A7433D300CD843F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5BC0E572A7433D300CD843F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5BC0E592A7433D300CD843F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		E5BC0E682A7433D300CD843F /* ZWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BC0E6C2A7433D300CD843F /* ZWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWalletUITests.swift; sourceTree = "<group>"; };
 		E5BC0E6E2A7433D300CD843F /* ZWalletUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWalletUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5BC0E7D2A74CD8F00CD843F /* ZMainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZMainTabBarController.swift; sourceTree = "<group>"; };
+		E5BC0E7F2A74CF2600CD843F /* ZWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZWalletViewController.swift; sourceTree = "<group>"; };
+		E5BC0E812A74CF6C00CD843F /* ZHabitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHabitViewController.swift; sourceTree = "<group>"; };
+		E5BC0E832A74CF9200CD843F /* ZFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZFoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				E5BC0E4B2A7433D200CD843F /* AppDelegate.swift */,
 				E5BC0E4D2A7433D200CD843F /* SceneDelegate.swift */,
-				E5BC0E4F2A7433D200CD843F /* ViewController.swift */,
-				E5BC0E512A7433D200CD843F /* Main.storyboard */,
 				E5BC0E542A7433D300CD843F /* Assets.xcassets */,
 				E5BC0E562A7433D300CD843F /* LaunchScreen.storyboard */,
 				E5BC0E592A7433D300CD843F /* Info.plist */,
+				E5BC0E4F2A7433D200CD843F /* ZStocksViewController.swift */,
+				E5BC0E832A74CF9200CD843F /* ZFoodViewController.swift */,
+				E5BC0E812A74CF6C00CD843F /* ZHabitViewController.swift */,
+				E5BC0E7F2A74CF2600CD843F /* ZWalletViewController.swift */,
+				E5BC0E7D2A74CD8F00CD843F /* ZMainTabBarController.swift */,
 			);
 			path = ZWallet;
 			sourceTree = "<group>";
@@ -233,7 +242,6 @@
 			files = (
 				E5BC0E582A7433D300CD843F /* LaunchScreen.storyboard in Resources */,
 				E5BC0E552A7433D300CD843F /* Assets.xcassets in Resources */,
-				E5BC0E532A7433D200CD843F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5BC0E502A7433D200CD843F /* ViewController.swift in Sources */,
+				E5BC0E842A74CF9200CD843F /* ZFoodViewController.swift in Sources */,
+				E5BC0E502A7433D200CD843F /* ZStocksViewController.swift in Sources */,
+				E5BC0E802A74CF2600CD843F /* ZWalletViewController.swift in Sources */,
+				E5BC0E7E2A74CD8F00CD843F /* ZMainTabBarController.swift in Sources */,
 				E5BC0E4C2A7433D200CD843F /* AppDelegate.swift in Sources */,
+				E5BC0E822A74CF6C00CD843F /* ZHabitViewController.swift in Sources */,
 				E5BC0E4E2A7433D200CD843F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5BC0E512A7433D200CD843F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5BC0E522A7433D200CD843F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5BC0E562A7433D300CD843F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +446,6 @@
 				INFOPLIST_FILE = ZWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +473,6 @@
 				INFOPLIST_FILE = ZWallet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
